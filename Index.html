@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Portfolio V.2</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=IBM+Plex+Mono:ital,wght@0,100;1,600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+        integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/letterizejs@2.0.1/lib/letterize.min.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script> -->
+
+
+
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+
+
+
+</head>
+
+<body class="container-fluid">
+    <!-- navigation -->
+    <nav class="bg-dark border rounded sticky-lg-top pt-2 pb-2">
+        <ul class="nav justify-content-center">
+            <li class="nav-item border rounded mx-md-3">
+                <a class="nav-link" href="#">Hey</a>
+            </li>
+            <li class="nav-item border rounded mx-md-3">
+                <a class="nav-link" href="#About">Who I Am</a>
+            </li>
+            <li class="nav-item border rounded mx-md-3">
+                <a class="nav-link" href="#Projects">What I Do</a>
+            </li>
+            <li class="nav-item border rounded mx-md-3">
+                <a class="nav-link" href="#Contact">Get In Touch</a>
+            </li>
+        </ul>
+    </nav>
+    <!---landing image-->
+    <div id="landing_image" class="border rounded">
+        <h1 class="animate-me">Hey I'm Tomas <br class="animate-me"> Welcome To My Website </h1>
+        <audio controls style="position:absolute;  top:40%; left: 41%;">
+            <source src="Audio/one-step-ahead.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div></div>
+    <!---About-->
+    <section id="About" class="container text-center" style="padding-top: 70px;">
+        <div class="col">
+            <h1>Who I Am </h1>
+            <p id="aboutMe">
+                I have wanted to become a Web Developer since I have tried short-course "Build Your Own Website" at
+                Haringey Library. <br>
+                In the end of 2019, I have decided to pursue my dream and I have started a Web Development training
+                program. <br>
+                I am passionate about creating new things, solving problems, exploring solutions and I have always been
+                interested in technology. <br>
+                My main concentration at present directed towards mastering C# & .NET framework. <br>
+                I believe the Web Development career path is perfect for me as it is never-ending creation,
+                continues learning and self-expression.<br><br>
+                On my free time I love active travelling: mountain trekking, snorkeling and
+                I hope to get diving licence in the future.
+                I am interested in nature and wildlife.
+            </p>
+        </div>
+        <div class="row" id="tools">
+            <h1 style="padding-bottom: 20px;">What I Use & Practice</h1>
+            <div class="col-4">
+                <h6>Languages/Patterns</h6>
+                <ul class="list-group">
+                    <li class="list-unstyled">C#</li>
+                    <li class="list-unstyled">HTML</li>
+                    <li class="list-unstyled">JS</li>
+                    <li class="list-unstyled">CSS</li>
+                    <li class="list-unstyled">Mvc</li>
+                    <li class="list-unstyled">Repository Pattern</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h6>Tools/Frameworks/Libraries</h6>
+                <ul class="list-group">
+                    <li class="list-unstyled">TinyMCE</li>
+                    <li class="list-unstyled">jQuery</li>
+                    <li class="list-unstyled">Bootstrap </li>
+                    <li class="list-unstyled">DataTables</li>
+                    <li class="list-unstyled">JS</li>
+                    <li class="list-unstyled">CSS</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h6>Software</h6>
+                <ul class="list-group">
+                    <li class="list-unstyled">Visual studio 2019</li>
+                    <li class="list-unstyled">Visual Studio Code</li>
+                    <li class="list-unstyled">WebStorm</li>
+                    <li class="list-unstyled">Photoshop (In practice)</li>
+                    <li class="list-unstyled">FilmoraX (In practice)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!---Project / Practices-->
+    <section id="Projects" class="container text-center " style="padding-top: 70px; ">
+        <h1>What I Do</h1>
+        <div class="row" style="padding-left: 125px;">
+            <div class="card">
+                <img class="card-img-top" id="eat" src="Images/EatWell.png" alt="Card image" style="width:100%;"
+                    onmouseover="eatWellHover();" onmouseout="eatWellOffHover()" />
+                <div class="card-body">
+                    <h5 class="card-title">Eat Well</h5>
+                    <p class="card-text">
+                        So far one of my favorite practice diving in to ASP.net core
+                        full CRUD operations.
+                    </p>
+                    <a href="http://dot2020net-001-site4.ctempurl.com/Customer/Home" class="btn border-primary">See
+                        Live</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top " id="blazorRPS" src="Images/BlazorRPS.png" alt="Card image"
+                    style="width:100%;" onmouseover="BlazorRPOnHover();" onmouseout="BlazorRPOffHover()" />
+                <div class="card-body">
+                    <h5 class="card-title">Blazor RPS</h5>
+                    <p class="card-text">Small Rock Paper Scissors game.<br>Me exploring BLAZOR</p>
+                    <a href="http://dot2020net-001-site3.ctempurl.com/" class="btn border-primary">See Live</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" id="ToDo" src="Images/ToDo.png" alt="Card image" style="width:100%;"
+                    onmouseover="ToDOOnHover();" onmouseout="ToDOOffHover()" />
+                <div class="card-body">
+                    <h5 class="card-title">To Do</h5>
+                    <p class="card-text">
+                        Small to do list:)<br>
+                        Full CRUD operations involving 1 data table.
+                    </p>
+                    <a href="http://dot2020net-001-site2.ctempurl.com/ToDoes" class="btn border-primary">See Live</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" id="Images" src="Images/Images.png" alt="Card image" style="width:100%;"
+                    onmouseover="ImagesOnHover();" onmouseout="ImagesOffHover()" />
+                <div class="card-body">
+                    <h5 class="card-title">Images</h5>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    <a href="http://dot2020net-001-site1.ctempurl.com/" class="btn border-primary">See Live</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" id="RazorUpsert" src="Images/RazorUpsert.png" alt="Card image"
+                    style="width:100%;" onmouseover="RazorUpsertsOnHover();" onmouseout="RazorUpsertsOffHover()" />
+                <div class="card-body">
+                    <h5 class="card-title">Razor Crud</h5>
+                    <p class="card-text">Exploring Razor pages</p>
+                    <a data-trigger="hover" class="btn border-primary">See Live</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="https://cdn.dribbble.com/users/527451/screenshots/3115734/safetynow_frame1-drib.gif"
+                    alt="Card image" style="width:100%;" />
+                <div class="card-body">
+                    <h5 class="card-title">Practice & Studying in progress....</h5>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="Contact" class=" container text-center" style="padding-top: 20px;">
+        <h1>Get In Touch</h1>
+        <div class="modal-dialog-centered">
+            <div class="mt-2 border rounded mx-auto p-4 bg-dark row">
+                <!-- FORM -->
+                <div class="card" data-aos-offset="300" data-aos="fade-right" data-aos-easing="ease-in-sine">
+                    <form id="form" action="https://formspree.io/f/mdopdywq" method="POST">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input id="firstName" type="text" name="name" class="form-control" required="required"
+                                data-error="Firstname is required.">
+                        </div>
+                        <div class="mt-md-1">
+                            <div class="form-group">
+                                <label for="lastname">Last Name</label>
+                                <input id="lastname" type="text" name="lastname" class="form-control"
+                                    required="required" data-error="Last name is required.">
+                            </div>
+                        </div>
+                        
+                        <div class="mt-md-1">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input id="email" type="email" name="email" class="form-control" required="required"
+                                    data-error="Valid email is required.">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group"> <label for="form_message">Message</label> <textarea
+                                    id="form_message" name="message" class="form-control" rows="4" required="required"
+                                    data-error="Please, leave me a message."></textarea>
+                            </div>
+                        </div>
+                        <div class="pt-1">
+                            <button id="submit" type="submit">Submit</button>
+                           
+                    </form>
+                </div>
+            </div>
+
+            <!-- SOCIALS -->
+            <div class="card" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="col-md-12 pt-5">
+                    <div class="row ">
+                        <a class="social" href="https://github.com/Tomas-Uk"><i
+                                class="social fab fa-github fa-5x pb-2"></i></a>
+                        <a class="social" href="https://www.linkedin.com/in/tomas-lukosevicius"><i
+                                class="social fab fa-linkedin fa-5x pb-2"></i></a>
+                        <a class="social" href="" data-toggle="modal" data-target="#exampleModalCenter"><i
+                                class="fas fa-phone-square-alt fa-5x pb-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- MAP -->
+            <div class="card" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <iframe style="width: 100%; height:100%;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9935.27167445957!2d-0.3154196220200082!3d51.498208756782425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75e5f13900c37abe!2sSouth%20Ealing!5e0!3m2!1sen!2suk!4v1605796019163!5m2!1sen!2suk"
+                    frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div id="status"></div>
+
+
+    <!-- Call Me Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered " role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body">
+                    <h2>+44(0)7391533826</h2>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary col-md-12" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark border rounded sticky-lg-top pt-2 pb-2 text-center bold">Tomas Lukosevicius @2021</footer>
+
+
+
+    <!-- scripts -->
+    <script src="/js/zoom.js"></script>
+    <script src="/js/form.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        const test = new Letterize({
+            targets: ".animate-me"
+        });
+        const animation = anime.timeline({
+            targets: test.listAll,
+            delay: anime.stagger(50, {
+                grid: [test.list[0].length, test.list.length],
+                from: "center"
+            }),
+            loop: true
+        });
+
+        animation
+            .add({
+                scale: 0.5
+            })
+            .add({
+                letterSpacing: "10px"
+            })
+            .add({
+                scale: 1
+            })
+            .add({
+                letterSpacing: "6px"
+            })
+            .add({
+                scale: 1
+            })
+            .add({
+                letterSpacing: "6px"
+            });
+    </script>
+
+
+
+
+    <p style="display: none;">
+        Learn to think for yourself.
+        That's the most important part.
+        Don't just blindly follow tutorials,
+        try to understand why it works and how it works.
+    </p>
+</body>
+
+</html>

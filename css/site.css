@@ -1,0 +1,147 @@
+
+body{
+    background: linear-gradient(to bottom, #ffffff 41%, rgb(2 21 64 / 66%) 100%);
+}
+
+.nav-link{
+    background-color: white;   
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+}
+.nav-link:hover{
+    color: white;
+    background-color:rgb(62, 76, 206);
+    font-style: italic;
+    opacity: 90%;
+}
+
+#landing_image{
+    text-align: center;
+    width: auto;
+    height: 900px;
+    position: relative;
+    background-image: url("../Images/Landing.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    color: seashell;
+    opacity: 95%;
+}
+#landing_image h1{ 
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        font-style: italic;
+        font-size: 50px;
+}
+
+#aboutMe{
+    font-family: 'Gentium Book Basic', serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder; 
+    font-size: 16px;
+}
+li{
+    font-family: 'Gentium Book Basic', serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* CARD */
+.card{
+    margin: 5px;
+    background-color: lightgrey;
+    width: 350px;
+    
+}
+.card-body a{
+    font: bolder;
+    background-color: seashell;
+}
+.card-body a:hover{
+    color: seashell;
+    background-color: rgb(62, 76, 206);
+}
+.card-img-top{
+    margin-top: 5px; 
+}
+.zoom {  
+    -ms-transform: scale(3); /* IE 9 */
+    -webkit-transform: scale(3); /* Safari 3-8 */
+    transform: scale(2.3);
+    position: relative;
+    z-index: 1; 
+    cursor:zoom-in;
+}
+/* FORM */
+button[type="submit"]{
+    color: black;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    text-align: center;
+    cursor: pointer;
+    transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+    background-color:  rgb(62, 76, 206);
+}
+#status{
+    width: 90%;
+    max-width: 100px;
+    text-align: center;
+    padding: 20px;
+    margin:0 auto;
+    border-radius: 8px;
+}
+#status.success{
+    background-color: #cacadd;
+    color:black;
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color:rgb(249, 171, 171);
+    color: black;
+    animation: status 4s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+h6{
+    font-weight: bolder;
+}
+
+
+
+
+
+/* social */
+.social{
+    color: black;
+}
+.social:hover{
+    color: rgb(62, 76, 206);
+}
+/* FOOTER */
+footer{
+    color: aliceblue;
+}
+
