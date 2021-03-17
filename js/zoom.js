@@ -46,7 +46,7 @@ function ToDOOnHover() {
 function ToDOOffHover() {
   $("#ToDo").hover(function () {
     $(this).removeClass("zoom");
-    $("#ToDo").attr("src", "Images/ToDO.png");
+    $("#ToDo").attr("src", "Images/ToDo.png");
   });
 }
 
