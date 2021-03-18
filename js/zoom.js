@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 function eatWellHover() {
   $("#eat").hover(function () {
-    $("#eat").attr("src", "gifs/EatWell.gif");
+    $("#eat").attr("src", "EatWell.gif");
     $(this).addClass("zoom");
   });
 }
