@@ -65,13 +65,13 @@ function ImagesOffHover() {
 
 function RazorUpsertsOnHover() {
   $("#RazorUpsert").hover(function () {
-    $("#RazorUpsert").attr("src", "Images/gifs/RazorUpserts.gif");
+    $("#RazorUpsert").attr("src", "Images/blog.jpg");
     $(this).addClass("zoom");
   });
 }
 function RazorUpsertsOffHover() {
   $("#RazorUpsert").hover(function () {
     $(this).removeClass("zoom");
-    $("#RazorUpsert").attr("src", "Images/RazorUpsert.png");
+    $("#RazorUpsert").attr("src", "Images/blog.jpg");
   });
 }
